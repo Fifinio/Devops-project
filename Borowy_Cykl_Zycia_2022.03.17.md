@@ -42,13 +42,12 @@
 &nbsp;
 
 # Spis treści
-- [[#Zespół]]]
+- [[#Zespół]]
 - [[#CELE]]
 - [[#Wizja]]
 - [[#Wymagania niefunkcjonalne]]
 - [[#Wymagania niefunkcjonalne]]
 - [[#User stories]]
-- 
 
 
 ## Temat pracy: Edytor tekstu markdown
@@ -114,14 +113,26 @@ Produkt ma służyć użytkownikom technicznym/zorientowanym na produktywność 
 41.  Settings changes saved per profile
 
 ## Wymagania niefunkcjonalne
-1. Działanie aplikacji powinno być szybkie, płynne, nie posiadać zacięć, nawet jeśli aplikacja straci połączenie z siecią lub jakimś zasobem, powinna w spokojny sposób zatrzymać animację i wyświetlić komunikat
-2.  Aplikacja powinna być intuicyjna i łatwa w użytku już od pierwszego kontaktu użytkownika, nie znaczy to że użytkownik musi korzystać ze wszystkich zaawansowanych opcji, jednak powinien być w stanie sporządzić notatkę z łatwością 
-3.  Dostępność aplikacji przez 24h/7dni/cały rok  
-4.  Sposób zgłaszania błędów i ułatwienie użytkownikowi ich rozwiązania  
-5.  Aplikacja powinna być bezpieczna dla użytkownika, zasoby użytkownika powinny być szyfrowane  
-6.  Aplikacja powinna posiadać swojego rodzaju tutorial, który pokazałby użytkownikowi wszelkie funkcje aplikacji  
-7.  Dostępność apki na innych systemach   
-8.  Kompatybilność z innymi aplikacjami
+##### Niezawodność 
+-  Dostępność aplikacji przez 22h/7dni/365 dni w roku  
+* Aplikacja będzie dostępna przez minimum 5 lat
+##### Wydajność
+- Działanie aplikacji powinno być szybkie, płynne, nie posiadać zacięć, nawet jeśli aplikacja straci połączenie z siecią lub jakimś zasobem, powinna w spokojny sposób zatrzymać animację i wyświetlić komunikat
+- Dedykowane serwery dla każdego regionu administracyjnego
+##### Wsparcie
+- Aplikacja powinna posiadać swojego rodzaju tutorial, który pokazałby użytkownikowi wszelkie funkcje aplikacji  
+-  Sposób zgłaszania błędów i ułatwienie użytkownikowi ich rozwiązania  
+
+##### Bezpieczeństwo
+- Aplikacja powinna być bezpieczna dla użytkownika, zasoby użytkownika powinny być szyfrowane  
+* Dane są zabezpieczone zgodnie ze specyfikacja w Rodo
+##### Wdrożenie
+-  Aplikacja powinna być intuicyjna i łatwa w użytku już od pierwszego kontaktu użytkownika, nie znaczy to że użytkownik musi korzystać ze wszystkich zaawansowanych opcji, jednak powinien być w stanie sporządzić notatkę z łatwością 
+- będzie
+##### Użyteczność
+- Kompatybilność z innymi aplikacjami
+- Dostępność apki na innych systemach   
+
 
 # User stories 
 Story *Id* | As a ``type of user`` | I want to `perform some task` |So that `I can achieve some goal`| isDone 
